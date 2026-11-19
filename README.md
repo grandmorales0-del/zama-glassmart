@@ -20,26 +20,6 @@ status "Queued". It does NOT send real SMS messages yet. To send real messages,
 a legitimate SMS provider account and API integration are required. Do not tell
 users that a text was delivered until the provider confirms delivery.
 
-INSTALLATION (XAMPP / WINDOWS)
-1. Copy the whole glassmart_integrated folder into:
-   C:\xampp\htdocs\
-2. Rename the folder to:
-   glassmart
-3. Start Apache and MySQL in the XAMPP Control Panel.
-4. Open http://localhost/phpmyadmin
-5. Import schema.sql using the Import tab.
-6. Check db.php. The default XAMPP MySQL username is root and password is blank.
-   If your MySQL password is different, update $user and $pass.
-7. Create the first administrator:
-   Open http://localhost/glassmart/create_user.php?key=ChangeThisSetupKey
-   Create an admin account with a strong password of at least 10 characters.
-   The setup key is a temporary protection only. Change it before use if needed.
-8. DELETE create_user.php after creating your first administrator.
-9. Sign in at http://localhost/glassmart/login.php
-10. Create manager and staff accounts using the same account-creation page only
-    while it is available. For normal use, implement a protected user-management
-    screen or have an administrator create accounts. Do not leave the setup file
-    on a live server.
 
 PUBLIC ONLINE ORDERS
 Customers do not need staff login to submit an order:
