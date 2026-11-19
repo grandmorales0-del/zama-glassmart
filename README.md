@@ -1,6 +1,4 @@
-# zama-glassmart
-sch proj
-GLASSMART SALES, STOCK, PURCHASES & ONLINE ORDERS SYSTEM
+#GLASSMART SALES, STOCK, PURCHASES & ONLINE ORDERS SYSTEM
 =======================================================
 
 This package connects the existing GlassMart dashboard design to PHP and MySQL.
